@@ -1,0 +1,96 @@
+@font-face {
+    font-family:"arogun";
+    src: url("./assets/fonts/arogun/Arogun-PersonalUse.otf");
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    max-height: 100vh;
+
+}
+header{
+    height: 20vh;
+    display: flex;
+    justify-content: space-around;
+    background-color: #f6bf0b;
+}
+.logo-oldschool{
+    width: 10%;
+    pointer-events: none;
+}
+header h1{
+    font-family: "arogun";
+}
+@media (prefers-reduced-motion: no-preference) {
+    .logo-oldschool {
+      animation: App-logo-spin infinite 2.5s linear;
+    }
+}
+@keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+.punchlineNav{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-end;
+}
+.punchlineNav a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.5rem;
+}
+.punchlineNav a:hover{
+    color: red;
+}
+.punchlineNav ul{
+    width: 50vw;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+main{
+    background-image: url("./assets/img/erik-mclean-QzpgqElvSiA-unsplash.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    width: 98vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+main h2{
+    font-family: "arogun";
+    font-size: 3rem;
+    -webkit-text-stroke: 1px;
+    -webkit-text-stroke-color: white;   
+}
+main h3{
+    color: white;
+}
+.articles{
+    margin: 3em 0;
+}
+.cover{
+    display: flex;
+    justify-content: space-evenly; 
+    margin: 1em 0; 
+}
+.img-main{
+    height: 40vh;
+    width: 20vw;
+}
+footer{
+    height: 5vh;
+    text-align: center;
+}
