@@ -18,7 +18,8 @@ header{
     background-color: #f6bf0b;
 }
 .logo-oldschool{
-    width: 10%;
+    width: 180px;
+    height: 180px;
     pointer-events: none;
 }
 header h1{
@@ -64,7 +65,8 @@ main{
     background-repeat: no-repeat;
     background-position: center;
     text-align: center;
-    width: 98vw;
+    width: 100vw;
+    height: 75vh;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -79,12 +81,15 @@ main h3{
     color: white;
 }
 .articles{
-    margin: 3em 0;
+    margin: 2em 0;
+}
+.articles:not(:first-child){
+    display: none;
 }
 .cover{
     display: flex;
     justify-content: space-evenly; 
-    margin: 1em 0; 
+    margin: 0.5em 0; 
 }
 .img-main{
     height: 40vh;
@@ -92,5 +97,8 @@ main h3{
 }
 footer{
     height: 5vh;
-    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #f6bf0b;
 }

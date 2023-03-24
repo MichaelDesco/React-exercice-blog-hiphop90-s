@@ -1,7 +1,7 @@
 const Main = () => {
     return (
       <main>
-        <div className="articles">
+        <div className="articles" id="lordFinesse">
           <h2>LORD FINESSE</h2>
           <div className="cover">
             <div>
@@ -22,9 +22,9 @@ const Main = () => {
             </div>
           </div>
         </div>
-        <div className="articles">
+        <div className="articles" id="djPremier">
           <h2>DJ PREMIER</h2>
-          <div className="cover dj-premier">
+          <div className="cover">
             <div>
               <h3>Works Of Mart</h3>
               <img className="img-main" src="https://i.discogs.com/RNGRqm8pgbly1pegRFar8GK2SHU1tU6Qz0wIHe2n52s/rs:fit/g:sm/q:90/h:375/w:375/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI1NDU4/MjU5LTE2NzA5ODUw/NTctMjk3Ny5qcGVn.jpeg" alt="works mart" />
@@ -43,9 +43,9 @@ const Main = () => {
             </div>
           </div>
         </div>
-        <div className="articles">
+        <div className="articles" id="djMuggs">
           <h2>DJ MUGGS</h2>
-          <div className="cover dj-premier">
+          <div className="cover">
             <div>
               <h3> The Soul Assassins</h3>
               <img className="img-main" src="https://i.discogs.com/QuZXUCKjMgVv6UdOBcJg5jLRPlVjvC_7QRiXj0tP9p4/rs:fit/g:sm/q:90/h:600/w:594/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEyMDIy/NzgtMTQ3NzI3NTM4/NC01MzA2LmpwZWc.jpeg" alt="soul assassins" />
@@ -64,9 +64,9 @@ const Main = () => {
             </div>
           </div>
         </div>
-        <div className="articles">
+        <div className="articles" id="rakim">
           <h2>RAKIM</h2>
-          <div className="cover dj-premier">
+          <div className="cover">
             <div>
               <h3>Paid In Full</h3>
               <img className="img-main" src="https://i.discogs.com/aNyP_OKgg0r0dtbMXcxrL6KCDksJTV0ormqvDFhqhyM/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEwNjYx/Ny0xMzg3NTkwODQ2/LTc4MTguanBlZw.jpeg" alt="paid full" />
